@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!-- Кодировка страницы -->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<!-- Разрешаем адаптив -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Подключаем иконки -->
+	<script src="https://kit.fontawesome.com/7502464a97.js" crossorigin="anonymous"></script>
+	<!-- Подключаем слайдер -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+	<!-- Заголовок страницы в браузере -->
+	<title>1 Проект</title>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="wrapper__content">
+			<!---------------------------------------------- Шапка ----------------------------------------------->
+			<header class="header" id="header">
+				<div class="container">
+					<div class="header__inner">
+						<div class="header__logo" data-scroll="#about">EaGle</div>
+						<nav class="nav" id="nav">
+							<a class="nav__link" href="#" data-scroll="#about">О нас</a>
+							<a class="nav__link" href="#" data-scroll="#service">Услуги</a>
+							<a class="nav__link" href="#" data-scroll="#work">Работы</a>
+							<a class="nav__link" href="#" data-scroll="#blog">Блог</a>
+							<a class="nav__link" href="#" data-scroll="#footer">Контакты</a>
+							<a href="" class="nav__link">
+								<i class="fa-solid fa-cart-shopping"></i>
+							</a>
+							<a href="" class="nav__link">
+								<i class="fa-solid fa-magnifying-glass"></i>
+							</a>
+						</nav>
+						<!--------------------------------- Бургер -------------------------------->
+						<button class="nav-toggle" id="nav_toggle" type="button">
+							<span class="nav-toggle__item">Menu</span>
+						</button>
+					</div>
+				</div>
+			</header>
+
+			<!---------------------------------------------- 1 Блок ----------------------------------------------->
+			<section class="intro" id="intro">
+				<div class="container">
+					<!-- Наш орел -->
+					<div class="content__cirlce">
+						<div class="cirlce__animation"></div>
+					</div>
+					<div class="intro__inner">
+						<h2 class="intro__top-title blue">Креативный дизайн</h2>
+						<h1 class="intro__title">в студии EaGle</h1>
+						<a class="btn" href="#" data-scroll="#about">Узнать больше</a>
+					</div>
+				</div>
+				<!-- Слайдер вынесли чтобы он прижался к низу блока -->
+				<div class="intro__slider">
+					<div class="container">
+						<div class="slider__inner">
+							<div class="slider__item" data-scroll="#intro">
+								<span class="slider__number">01</span>
+								<span class="slider__text">главная</span>
+							</div>
+							<div class="slider__item" data-scroll="#about">
+								<span class="slider__number">02</span>
+								<span class="slider__text">О нас</span>
+							</div>
+							<div class="slider__item" data-scroll="#work">
+								<span class="slider__number">03</span>
+								<span class="slider__text">работы</span>
+							</div>
+							<div class="slider__item" data-scroll="#footer">
+								<span class="slider__number">04</span>
+								<span class="slider__text">Контакты</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<!---------------------------------------------- 2 Блок ----------------------------------------------->
+		<!--------------------------------- СЕКЦИЯ -------------------------------->
+		<section class="section" id="about">
+			<div class="container">
+				<!--------------------------------- 1 Элемент -------------------------------->
+				<div class="section__header">
+					<h3 class="section__up-title">Что мы делаем?</h3>
+					<h2 class="section__title">Мы эксперты в UX-дизайне</h2>
+					<div class="section__text">Мы проектируем пользовательский опыт, создаем и тестируем прототипы
+						и воплощаем дизайн интерфейсов сайтов, программ и мобильных приложений. Удобные интерфейсы —
+						это довольные пользователи и лояльные клиенты.
+					</div>
+				</div>
+				<!--------------------------------- CARD -------------------------------->
+				<div class="card">
+					<div class="card__item">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="images/story/1.png" alt="">
+							</div>
+							<div class="card__text">
+								<i class="fa-solid fa-people-group"></i>
+								<div>интерфейсы</div>
+							</div>
+						</div>
+					</div>
+					<div class="card__item">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="images/story/2.png" alt="">
+							</div>
+							<div class="card__text">
+								<i class="fa-solid fa-people-group"></i>
+								<div>лендинги</div>
+							</div>
+						</div>
+					</div>
+					<div class="card__item">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="images/story/3.png" alt="">
+							</div>
+							<div class="card__text">
+								<i class="fa-solid fa-people-group"></i>
+								<div>презентации</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!---------------------------------------------- 3 Блок ----------------------------------------------->
+		<div class="statistics">
+			<div class="container">
+				<div class="statistics__items">
+					<div class="statistics__item">
+						<div class="statistics__number">42</div>
+						<div class="statistics__text">Проектоа веб-дизайна</div>
+					</div>
+					<div class="statistics__item">
+						<div class="statistics__number">123</div>
+						<div class="statistics__text">Счастливых клиентов</div>
+					</div>
+					<div class="statistics__item">
+						<div class="statistics__number">15</div>
+						<div class="statistics__text">Премий победителя</div>
+					</div>
+					<div class="statistics__item">
+						<div class="statistics__number">99</div>
+						<div class="statistics__text">Упоминаний</div>
+					</div>
+					<div class="statistics__item">
+						<div class="statistics__number">24</div>
+						<div class="statistics__text">Членов команды</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!---------------------------------------------- 4 Блок ----------------------------------------------->
+		<!--------------------------------- СЕКЦИЯ -------------------------------->
+		<section class="section" id="service">
+			<div class="container">
+				<!--------------------------------- 1 Элемент -------------------------------->
+				<div class="section__header">
+					<h3 class="section__up-title">Чо предлагаем?</h3>
+					<h2 class="section__title">Комплексный подход</h2>
+				</div>
+				<!--------------------------------- 2 Элемент -------------------------------->
+				<div class="services">
+					<div class="services__items">
+						<div class="services__item services__item_border">
+							<div class="services__image">
+								<img src="images/Services/s1.png" alt="">
+							</div>
+							<div class="services__title">Фотосессия</div>
+							<div class="services__text">Многообразие светлых интерьеров, профессиональное оборудование и
+								высочайший уровень качества.</div>
+						</div>
+						<div class="services__item services__item_border">
+							<div class="services__image">
+								<img src="images/Services/s2.png" alt="">
+							</div>
+							<div class="services__title">Веб-дизайн</div>
+							<div class="services__text">Конверсия посадочных страниц выше, чем у обычной страницы на сайте.
+							</div>
+						</div>
+						<div class="services__item services__item_border">
+							<div class="services__image">
+								<img src="images/Services/s3.png" alt="">
+							</div>
+							<div class="services__title">Видео-анимация</div>
+							<div class="services__text">Расскажите о себе с помощью видео
+								и инфографики — наглядно, понятно
+								и без лишних слов!</div>
+						</div>
+						<div class="services__item">
+							<div class="services__image">
+								<img src="images/Services/s4.png" alt="">
+							</div>
+							<div class="services__title">seo</div>
+							<div class="services__text">Формируем стратегию на старте, практикуем консультации со
+								специалистами, согласовываем все работы.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__image">
+								<img src="images/Services/s5.png" alt="">
+							</div>
+							<div class="services__title">Брендинг</div>
+							<div class="services__text">Мы гордимся тем, что наши работы помогают развивать бизнес. В нашем
+								лице вы найдете надежного союзника.</div>
+						</div>
+						<div class="services__item">
+							<div class="services__image">
+								<img src="images/Services/s6.png" alt="">
+							</div>
+							<div class="services__title">Графический дизайн</div>
+							<div class="services__text">Включает в себя создание инфографики, дизайн полиграфической продукции
+								(листовки, флаеры и т.п.)</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</section>
+
+		<!---------------------------------------------- 5 Блок ----------------------------------------------->
+		<!--------------------------------- СЕКЦИЯ -------------------------------->
+		<section class="section section_devices">
+
+			<div class="container">
+				<!--------------------------------- 1 Элемент -------------------------------->
+				<div class="section__header">
+					<h3 class="section__up-title">Для всех устройств</h3>
+					<h2 class="section__title">Уникальный дизайн</h2>
+				</div>
+				<!--------------------------------- 2 Элемент -------------------------------->
+				<div class="devices">
+					<div class="devices__item">
+						<div class="devices__ipad">
+							<img src="images/Design/dipad.png" alt="">
+						</div>
+						<div class="devices__iphone">
+							<img src="images/Design/diphone.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!---------------------------------------------- 6 Блок ----------------------------------------------->
+		<!--------------------------------- СЕКЦИЯ -------------------------------->
+		<section class="section section_service">
+			<div class="container">
+				<!--------------------------------- 1 Элемент -------------------------------->
+				<div class="section__header">
+					<h3 class="section__up-title">Обслуживание</h3>
+					<h2 class="section__title">Что мы будем делать</h2>
+					<div class="section__text">В нашем лице вы нашли надёжного союзника в достижении ваших бизнес-целей. Это
+						невероятно здорово, что успех находится под нашим с вами контролем и для нас крайне важно, что наши
+						работы помогают другим развивать свой бизнес.
+					</div>
+				</div>
+				<!--------------------------------- 2 Элемент -------------------------------->
+				<div class="wedo">
+					<div class="wedo__item">
+						<div class="wedo__item-picture">
+							<img class="wedo__img" src="images/Wedo/wd-fon.png" alt="w">
+						</div>
+					</div>
+					<div class="wedo__item">
+						<div class="accordion">
+							<!--------------------------------- Аккардион - 1 Элемент -------------------------------->
+							<div class="accordion__item active" data-collapse="#wedo_1">
+								<div class="accordion__header">
+									<img class="accordion__icon" src="images/Wedo/wi1.png" alt="">
+									<div class="accordion__title">СОЗДАНИЕ ПЛАТФОРМЫ БРЕНДА</div>
+								</div>
+								<div class="accordion__content" id="wedo_1">
+									<div class="accordion__text">Создание платформы бренда – процесс, включающий: Анализ рыночной
+										ситуации в данной категории услуг, анализ коммуникационного поля, определение и уточнение
+										портрета потребителя, инсайт (глубинный мотив покупки) потребителя. Определение ключевых
+										преимуществ будущего бренда для целевой аудитории.
+										Разработку концептов позиционирования в виде повествовательных предложений с особым
+										вниманием к инсайту.
+									</div>
+								</div>
+							</div>
+							<!--------------------------------- Аккардион - 2 Элемент -------------------------------->
+							<div class="accordion__item" data-collapse="#wedo_2">
+								<div class="accordion__header">
+									<img class="accordion__icon" src="images/Wedo/wi2.png" alt="">
+									<div class="accordion__title">РАЗРАБОТКА ПОЗИЦИОНИРОВАНИЯ</div>
+								</div>
+								<div class="accordion__content" id="wedo_2">
+									<div class="accordion__text">Разработка позиционирования бренда – это ключевое сообщение
+										бренда, позволяющее ему выгодно отличаться от конкурентов, донести до потребителя свою
+										уникальность и ответить на главный вопрос: кто мы?</div>
+								</div>
+							</div>
+							<!--------------------------------- Аккардион - 3 Элемент -------------------------------->
+							<div class="accordion__item" data-collapse="#wedo_3">
+								<div class="accordion__header">
+									<img class="accordion__icon" src="images/Wedo/wi3.png" alt="">
+									<div class="accordion__title">НЕЙМИНГ</div>
+								</div>
+								<div class="accordion__content" id="wedo_3">
+									<div class="accordion__text">Нейминг (от англ. Name – «имя») – это процесс создания названия
+										бренда, компании, товара или услуги, очень важная часть стратегии маркетинга,
+										фундаментальная составляющая позиционирования бренда.</div>
+								</div>
+							</div>
+							<!--------------------------------- Аккардион - 4 Элемент -------------------------------->
+							<div class="accordion__item" data-collapse="#wedo_4">
+								<div class="accordion__header">
+									<img class="accordion__icon" src="images/Wedo/wi3.png" alt="">
+									<div class="accordion__title">БРЕНДБУК</div>
+								</div>
+								<div class="accordion__content" id="wedo_4">
+									<div class="accordion__text">Брендбук – это описание ценностей бренда и способов донесения их
+										до потребителей.
+										При разработке брендбука прописываются миссия и философия бренда, ключевые идентификаторы
+										(символы и атрибуты), сообщения бренда с указанием каналов и способов их передачи. Правила
+										коммуникации и риторика сообщений, – как внутри самой компании, так и направленных вовне.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!---------------------------------------------- 7 Блок - Цитата ----------------------------------------------->
+		<!--* Используем div, а не section, тк нет заголовков -->
+		<!-- Reviews 1 -->
+		<div class="section section__gray">
+			<div class="container">
+				<div class="reviews">
+					<div data-slider>
+						<div>
+							<div class="reviews__item">
+								<img class="reviews__photo" src="images/avatar/av1.png" alt="">
+								<div class="review__content">
+									<div class="reviews__text">“Перспектива изменений, приносимых стремительным информационным
+										потоком, сейчас настолько велика, что нам попросту некогда передохнуть — у нас нет
+										неподвижной картинки, которую можно было бы созерцать на досуге.”</div>
+									<div class="reviews__author">Квентин Фиоре</div>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="reviews__item">
+								<img class="reviews__photo" src="images/avatar/av1.png" alt="">
+								<div class="review__content">
+									<div class="reviews__text">“Дизайн — это способ смотреть на мир. Вы создаете артефакт или
+										систему с определенным набором условий, инфраструктуру или устройство, тем самым решив
+										половину уравнения, а остальное вы предоставляете всем, кто захочет принять участие.”
+									</div>
+									<div class="reviews__author">Люсиль Теназа</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!---------------------------------------------- 8 Блок ----------------------------------------------->
+		<section class="section">
+			<div class="container">
+				<!--------------------------------- 1 Элемент -------------------------------->
+				<div class="section__header">
+					<h3 class="section__up-title">Кто мы такие?</h3>
+					<h2 class="section__title">Наша команда</h2>
+					<div class="section__text">В сферу наших компетенций входят такие направления, как: создание, вывод на
+						рынок и продвижение брендов. Графический дизайн и создание сайтов. Разработка креативных концепций
+						рекламы, стратегий позиционирования и продвижения компании.
+					</div>
+				</div>
+				<!--------------------------------- CARD -------------------------------->
+				<div class="card">
+					<div class="card__item">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="images/team/t1.png" alt="">
+							</div>
+							<!--------------------------------- 2 Элемент -------------------------------->
+							<div class="social">
+								<a class="social__item" href="#" target="_blank">
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
+								<a class="social__item" href="#" target="_blank">
+									<i class="fa-brands fa-twitter"></i>
+								</a>
+								<a class="social__item" href="#" target="_blank">
+									<i class="fa-brands fa-pinterest-p"></i>
+								</a>
+								<a class="social__item" href="#" target="_blank">
+									<i class="fa-brands fa-instagram"></i>
+								</a>
+							</div>
+						</div>
+						<div class="card__info">
+							<div class="card__name">Георгий Брин</div>
+							<div class="card__prof">Графический дизайнер</div>
+						</div>
+					</div>
+					<div class="card__item">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="images/team/t2.png" alt="">
+							</div>
+							<div class="social">
+								<a class="social__item" href="#" target="_blank">
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
+								<a class="social__item" href="#" target="_blank">
+									<i class="fa-brands fa-twitter"></i>
+								</a>
+								<a class="social__item" href="#" target="_blank">
+									<i class="fa-brands fa-pinterest-p"></i>
+								</a>
+								<a class="social__item" href="#" target="_blank">
+									<i class="fa-brands fa-instagram"></i>
+								</a>
+							</div>
+						</div>
+						<div class="card__info">
+							<div class="card__name">Валентин Южаков</div>
+							<div class="card__prof">Брендинг/UX Дизайнер</div>
+						</div>
+					</div>
+					<div class="card__item">
+						<div class="card__inner">
+							<div class="card__img">
+								<img src="images/team/t3.png" alt="">
+							</div>
+							<div class="social">
+								<a class="social__item" href="#" target="_blank">
+									<i class="fa-brands fa-facebook-f"></i>
+								</a>
+								<a class="social__item" href="#" target="_blank">
+									<i class="fa-brands fa-twitter"></i>
+								</a>
+								<a class="social__item" href="#" target="_blank">
+									<i class="fa-brands fa-pinterest-p"></i>
+								</a>
+								<a class="social__item" href="#" target="_blank">
+									<i class="fa-brands fa-instagram"></i>
+								</a>
+							</div>
+						</div>
+						<div class="card__info">
+							<div class="card__name">Валентин Вирт</div>
+							<div class="card__prof">Разработчик</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!---------------------------------------------- 9 Блок ----------------------------------------------->
+		<div class="section section__gray">
+			<div class="container">
+				<div class="logo">
+					<div class="logo__item">
+						<img class="logo__img" src="images/logos/1.png" alt="">
+					</div>
+					<div class="logo__item">
+						<img class="logo__img" src="images/logos/2.png" alt="">
+					</div>
+					<div class="logo__item">
+						<img class="logo__img" src="images/logos/3.png" alt="">
+					</div>
+					<div class="logo__item">
+						<img class="logo__img" src="images/logos/4.png" alt="">
+					</div>
+					<div class="logo__item">
+						<img class="logo__img" src="images/logos/5.png" alt="">
+					</div>
+					<div class="logo__item">
+						<img class="logo__img" src="images/logos/6.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!---------------------------------------------- 10 Блок ----------------------------------------------->
+		<section class="section" id="work">
+			<div class="container">
+				<!--------------------------------- 1 Элемент -------------------------------->
+				<div class="section__header">
+					<h3 class="section__up-title">Что мы делаем?</h3>
+					<h2 class="section__title">некоторые из наших работ</h2>
+					<div class="section__text">Вам будет комфортно работать с нами не только потому, что мы умеем
+						профессионально решать поставленные задачи, но и потому, что мы умеем создавать атмосферу взаимного
+						доверия, работать на успех задачи. Мы умеем донести до человека любую мысль и идею так, что она будет
+						проста, понятна и притягательна.
+					</div>
+				</div>
+			</div>
+			<!--------------------------------- WORK -------------------------------->
+			<!-- *За контейнером так как блок шире контейнера -->
+			<div class="works">
+				<div class="works__column">
+					<div class="works__item">
+						<img class="works__image" src="images/works/w1.png" alt="">
+						<div class="works__info">
+							<div class="works__icon"></div>
+							<div class="works__title">Стильная фотосессия</div>
+							<div class="works__text">Студия EaGle</div>
+						</div>
+					</div>
+					<div class="works__item">
+						<img class="works__image" src="images/works/w2.png" alt="">
+						<div class="works__info">
+							<div class="works__icon"></div>
+							<div class="works__title">Креативный дизайн</div>
+							<div class="works__text">Студия EaGle</div>
+						</div>
+					</div>
+				</div>
+				<div class="works__column">
+					<div class="works__item">
+						<img class="works__image" src="images/works/w3.png" alt="">
+						<div class="works__info">
+							<div class="works__icon"></div>
+							<div class="works__title">Новый подход</div>
+							<div class="works__text">Студия EaGle</div>
+						</div>
+					</div>
+					<div class="works__item">
+						<img class="works__image" src="images/works/w4.png" alt="">
+						<div class="works__info">
+							<div class="works__icon"></div>
+							<div class="works__title">Большие возможности</div>
+							<div class="works__text">Студия EaGle</div>
+						</div>
+					</div>
+				</div>
+				<div class="works__column">
+					<div class="works__item">
+						<img class="works__image" src="images/works/w5.png" alt="">
+						<div class="works__info">
+							<div class="works__icon"></div>
+							<div class="works__title">Команда профессионалов</div>
+							<div class="works__text">Студия EaGle</div>
+						</div>
+					</div>
+				</div>
+				<div class="works__column">
+					<div class="works__item">
+						<img class="works__image" src="images/works/w6.png" alt="">
+						<div class="works__info">
+							<div class="works__icon"></div>
+							<div class="works__title">элегантность</div>
+							<div class="works__text">Студия EaGle</div>
+						</div>
+					</div>
+					<div class="works__item">
+						<img class="works__image" src="images/works/w7.png" alt="">
+						<div class="works__info">
+							<div class="works__icon"></div>
+							<div class="works__title">Совместные путешествия</div>
+							<div class="works__text">Студия EaGle</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!---------------------------------------------- 11 Блок - Цитата ----------------------------------------------->
+		<!--* Используем div, а не section, тк нет заголовков -->
+		<!-- Reviews 1 -->
+		<div class="section">
+			<div class="container">
+				<div class="reviews">
+					<div data-slider>
+						<div>
+							<div class="reviews__item">
+								<img class="reviews__photo" src="images/avatar/av1.png" alt="">
+								<div class="review__content">
+									<div class="reviews__text">“Дизайн — это способ смотреть на мир. Вы создаете артефакт или
+										систему с определенным набором условий, инфраструктуру или устройство, тем самым решив
+										половину уравнения, а остальное вы предоставляете всем, кто захочет принять участие.”
+									</div>
+									<div class="reviews__author">Люсиль Теназа</div>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="reviews__item">
+								<img class="reviews__photo" src="images/avatar/av1.png" alt="">
+								<div class="review__content">
+									<div class="reviews__text">“Перспектива изменений, приносимых стремительным информационным
+										потоком, сейчас настолько велика, что нам попросту некогда передохнуть — у нас нет
+										неподвижной картинки, которую можно было бы созерцать на досуге.”</div>
+									<div class="reviews__author">Квентин Фиоре</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!---------------------------------------------- 12 Блок ----------------------------------------------->
+		<section class="section section_clients">
+			<div class="container">
+				<!--------------------------------- 1 Элемент -------------------------------->
+				<div class="section__header">
+					<h3 class="section__up-title">Счастливые клиенты</h3>
+					<h2 class="section__title">Что говорят люди</h2>
+				</div>
+				<!--------------------------------- 2 Элемент -------------------------------->
+				<div class="clients">
+					<div class="clients__item">
+						<img class="clients__img" src="images/HappyClients/1.png" alt="">
+						<div class="clients__title">Мэтью Дикс</div>
+						<div class="clients__profession">Дизайнер</div>
+						<div class="clients__text">Работаю здесь полгода. Заказов много, работа есть всегда. Общение напрямую
+							с заказчиком, поэтому проблем с доработками нет. Оплата более чем достойная.
+						</div>
+					</div>
+					<div class="clients__item">
+						<img class="clients__img" src="images/HappyClients/2.png" alt="">
+						<div class="clients__title">Иван Браун</div>
+						<div class="clients__profession">Копирайтер</div>
+						<div class="clients__text">Недавно стала сотрудничать со Studently. Пишу там студенческие работы за
+							деньги. Проект пока молодой, поэтому и платят там весьма неплохо для привлечения авторов.
+						</div>
+					</div>
+					<div class="clients__item">
+						<img class="clients__img" src="images/HappyClients/3.png" alt="">
+						<div class="clients__title">Роман Поздняков</div>
+						<div class="clients__profession">Разработчик</div>
+						<div class="clients__text">В данной компании подрабатываю второй год и пишу сайты. Хотелось бы
+							отметить большое количество заказов, а также достаточно быстрые выплаты. Служба поддержки всегда
+							находится на связи и оперативно решает все возникающие проблемы.
+						</div>
+					</div>
+					<div class="clients__item">
+						<img class="clients__img" src="images/HappyClients/4.png" alt="">
+						<div class="clients__title">Олег Дорогин</div>
+						<div class="clients__profession">Разработчик</div>
+						<div class="clients__text">Есть возможность реализоваться, много этому примеров. Приятно было, что
+							руководство напрямую общалось с подчиненными, с каждым сотрудником знакомились, узнавали его
+							возможности и давали задачи, которые ему под силу.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!---------------------------------------------- 13 Блок ----------------------------------------------->
+		<section class="section" id="blog">
+			<div class="container">
+				<!--------------------------------- 1 Элемент -------------------------------->
+				<div class="section__header">
+					<h3 class="section__up-title">Наши истории</h3>
+					<h2 class="section__title">Последние новости</h2>
+				</div>
+				<!--------------------------------- 2 Элемент -------------------------------->
+				<div class="blog">
+					<div class="blog__item">
+						<div class="blog__header">
+							<a href="">
+								<img class="blog__photo" src="images/Blog/1.png" alt="">
+							</a>
+							<div class="blog__date">
+								<div class="blog__date-day">15</div>Янв
+							</div>
+						</div>
+						<div class="blog__content">
+							<div class="blog__title">
+								<a href="#">Рейтинг Рунета опубликовал рейтинги за 2022 год:</a>
+							</div>
+							<div class="blog__text">3 место в рейтинге веб-студий</div>
+						</div>
+						<div class="blog__footer">
+							<div class="blog__evidence">
+								<span class="blog__numbers"><i class="fa-solid fa-eye"></i>542</span>
+								<span class="blog__numbers"><i class="fa-solid fa-comment-dots"></i>17</span>
+							</div>
+						</div>
+					</div>
+					<div class="blog__item">
+						<div class="blog__header">
+							<a href="">
+								<img class="blog__photo" src="images/Blog/2.png" alt="">
+							</a>
+							<div class="blog__date">
+								<div class="blog__date-day">2</div>Мар
+							</div>
+						</div>
+						<div class="blog__content">
+							<div class="blog__title">
+								<a href="#"> Победители на конкурсе «Золотой сайт» 2021!</a>
+							</div>
+							<div class="blog__text">1 место в номинации «Лучший дизайн интернет-магазина/магазина»</div>
+						</div>
+						<div class="blog__footer">
+							<div class="blog__evidence">
+								<span class="blog__numbers"><i class="fa-solid fa-eye"></i>1023</span>
+								<span class="blog__numbers"><i class="fa-solid fa-comment-dots"></i>52</span>
+							</div>
+						</div>
+					</div>
+					<div class="blog__item">
+						<div class="blog__header">
+							<a href="">
+								<img class="blog__photo" src="images/Blog/3.png" alt="">
+							</a>
+							<div class="blog__date">
+								<div class="blog__date-day">28</div>Авг
+							</div>
+						</div>
+						<div class="blog__content">
+							<div class="blog__title">
+								<a href="#">Рейтинг Рунета опубликовал свежие рейтинги за 2021 год:</a>
+							</div>
+							<div class="blog__text">6 место в рейтинге агентств по созданию и продвижению сайтов</div>
+						</div>
+						<div class="blog__footer">
+							<div class="blog__evidence">
+								<span class="blog__numbers"><i class="fa-solid fa-eye"></i>231</span>
+								<span class="blog__numbers"><i class="fa-solid fa-comment-dots"></i>23</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!---------------------------------------------- 14 Блок ----------------------------------------------->
+		<div class="map">
+			<div class="container">
+				<div class="map__icon"> <i class="fa-solid fa-location-dot"></i> </div>
+				<div class="map__title">
+					<h2>
+						<a href="https://goo.gl/maps/3Sy57qSTL65XjrPk8" target="_blank">Открыть карту</a>
+					</h2>
+				</div>
+			</div>
+		</div>
+
+		<!---------------------------------------------- 15 Блок ----------------------------------------------->
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__column footer__column_first">
+						<div class="footer__logo">EaGle</div>
+						<div class="footer__text">Мы гордимся тем, что наши работы помогают развивать бизнес. В нашем лице вы
+							найдете надежного союзника. Напишите нам прямо сейчас.</div>
+						<div class="footer__social">
+							<div class="footer__social-header">
+								<b>15k</b>
+								<span>followers</span>
+							</div>
+							<div class="footer__social-content">
+								Подпишись на нас:
+								<div class="footer__icons">
+									<a class="footer__icon" href="">
+										<i class="fa-brands fa-facebook-f"></i>
+									</a>
+									<a href="" class="footer__icon">
+										<i class="fa-brands fa-twitter"></i>
+									</a>
+									<a href="" class="footer__icon">
+										<i class="fa-brands fa-instagram"></i>
+									</a>
+									<a href="" class="footer__icon">
+										<i class="fa-brands fa-pinterest-p"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+						<form action="/" class="subscribe" method="post">
+							<input class="subscribe__input" type="email" name="name" placeholder="Your Email...">
+							<button class="subscribe__button" type="submit">Subscribe</button>
+						</form>
+					</div>
+					<!--------------------------------- 2 Элемент -------------------------------->
+					<div class="footer__column footer__column_second">
+						<div class="footer__title">Блог</div>
+						<div class="blogs">
+							<div class="blogs__item">
+								<img class="blogs__img" src="images/footer/blogs/1.png" alt="">
+								<div class="blogs__content">
+									<a class="blogs__title" href="">3 место в рейтинге веб-студий</a>
+									<div class="blogs__data">15 Янв, 2022</div>
+								</div>
+							</div>
+							<div class="blogs__item">
+								<img class="blogs__img" src="images/footer/blogs/2.png" alt="">
+								<div class="blogs__content">
+									<a class="blogs__title" href="">1 место в номинации «Лучший дизайн интернет-магазина»</a>
+									<div class="blogs__data">2 Марта, 2021</div>
+								</div>
+							</div>
+							<div class="blogs__item">
+								<img class="blogs__img" src="images/footer/blogs/3.png" alt="">
+								<div class="blogs__content">
+									<a class="blogs__title" href="">6 место по созданию и продвижению сайтов</a>
+									<div class="blogs__data">28 Авг, 2021</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--------------------------------- 3 Элемент -------------------------------->
+					<div class="footer__column footer__column_third">
+						<div class="footer__title">instagram</div>
+						<div class="instagram">
+							<a class="instagram__item" href="#" target="_blank">
+								<img src="images/footer/insta/1.png" alt="">
+							</a>
+							<a class="instagram__item" href="#" target="_blank">
+								<img src="images/footer/insta/2.png" alt="">
+							</a>
+							<a class="instagram__item" href="#" target="_blank">
+								<img src="images/footer/insta/3.png" alt="">
+							</a>
+							<a class="instagram__item" href="#" target="_blank">
+								<img src="images/footer/insta/4.png" alt="">
+							</a>
+							<a class="instagram__item" href="#" target="_blank">
+								<img src="images/footer/insta/5.png" alt="">
+							</a>
+							<a class="instagram__item" href="#" target="_blank">
+								<img src="images/footer/insta/6.png" alt="">
+							</a>
+							<a class="instagram__item" href="#" target="_blank">
+								<img src="images/footer/insta/7.png" alt="">
+							</a>
+							<a class="instagram__item" href="#" target="_blank">
+								<img src="images/footer/insta/8.png" alt="">
+							</a>
+							<a class="instagram__item" href="#" target="_blank">
+								<img src="images/footer/insta/9.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
