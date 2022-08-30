@@ -49,14 +49,10 @@ $md4: 479.98;
 	width: 100%;
 	min-height: 100%;
 	@include flexbox();
-	// Чтобы не было горизонтальной прокрутки overflow: hidden
 	overflow: hidden;
 	flex-direction: column;
 	font-size: 20px;
 	color: #333;
-
-	&__content {
-	}
 }
 
 /*----- КОНТЕЙНЕР ---------------------------------------*/
@@ -65,13 +61,9 @@ $md4: 479.98;
 	max-width: $mw;
 	margin: 0 auto;
 	padding: 0 20px;
-	
 }
 
 // Анимация
-.content {
-}
-
 	.cirlce__animation {
 		transform: rotate(100deg);
 		width: 50px;
@@ -85,6 +77,8 @@ $md4: 479.98;
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
 		animation-delay: 0.5s;
+
+		cursor: pointer;
 	
 		
 		&:hover {
@@ -248,6 +242,7 @@ $md4: 479.98;
 		text-transform: uppercase;
 		color: white;
 		text-transform: none;
+		cursor: pointer;
 	
 	}
 }
@@ -286,6 +281,7 @@ $md4: 479.98;
 
 		margin-left: 0;
 		margin-right: 0;
+
 	}
 
 	&__link {
@@ -553,6 +549,7 @@ $md4: 479.98;
 }
 
 .slider__item {
+	cursor: pointer;
 	flex: 0 1 22%;
 	padding: 20px 0;
 	position: relative;
@@ -747,9 +744,6 @@ $md4: 479.98;
 .services {
 	margin: -20px 0px -55px 0px;
 
-	@media (max-width: 950px) {
-		// margin: 0px 0px -0px 0px;
-	}
 
 	&__items {
 		@include flexbox();
@@ -783,7 +777,6 @@ $md4: 479.98;
 	}
 
 
-
 	&__image {
 		position: absolute;
 		top: 0;
@@ -809,7 +802,6 @@ $md4: 479.98;
 		color: #999999;
 
 		padding-right: 20px;
-		// border: solid 1px #000;
 	}
 }
 
@@ -1117,26 +1109,26 @@ $md4: 479.98;
 	};
 	.reviews .slick-slider {
 		padding: 0 60px;
-  };
+	};
 
 }
 @media (max-width: 770px) {
 	.reviews__photo {
 		position: static;
 		margin: 0 auto 20px;
-  }
+	}
 
-  .reviews__item {
+	.reviews__item {
 		padding-left: 0;
-  }
+	}
 
-  .reviews__text {
+	.reviews__text {
 		font-size: 16px;
-  }
+	}
 
-  .reviews__author {
+	.reviews__author {
 		font-size: 20px;
-  }
+	}
 
 }
 @media (max-width: 575px) {
@@ -1145,11 +1137,11 @@ $md4: 479.98;
 	}
 	.reviews .slick-slider {
 		padding: 0;
-  }
+	}
 
-  .slick-arrow {
+	.slick-arrow {
 		top: 18%;
-  }
+	}
 }
 
 /*----- 8 Блок ---------------------------------------*/
@@ -1172,7 +1164,6 @@ $md4: 479.98;
 	
 	&__item {
 		background-color: #fce38a;
-		// border-right: solid 1px #f38181;
 		text-decoration: none;
 		color: #f38181;
 		text-align: center;
@@ -1193,11 +1184,6 @@ $md4: 479.98;
 	}
 
 }
-
-// .fa-brands {
-// }
-// .fa-facebook-f {
-// }
 
 
 .card {
@@ -1318,14 +1304,11 @@ $md4: 479.98;
 	&__image {
 		transition: opacity .1s linear;
 		
-		//! Изображения подстраиваются под разрешение экрана
+		//* Изображения подстраиваются под разрешение экрана
 		max-width: 100%;
 		height: auto;
 		
 	}
-
-	// &__icon {
-	// }
 
 	&__title {
 		font-family: $fontfamly;
@@ -1390,7 +1373,7 @@ $md4: 479.98;
 			top: 0;
 		}
 		@media (max-width: 600px) {
-			// ! position: static - чтобы не прыгала фотография
+			//* position: static - чтобы не прыгала фотография
 			position: static;
 			margin-bottom: 10px;
 		}
@@ -1617,8 +1600,6 @@ $md4: 479.98;
 
 	&__column {
 
-		
-		
 		&_first{
 			flex: 0 0 40%;
 			@media (max-width: 1100px) {
@@ -1857,9 +1838,7 @@ $md4: 479.98;
 
 .instagram {
 	@include flexbox();
-	flex-wrap: wrap;
-	// justify-content: space-between;
-	
+	flex-wrap: wrap;	
 
 	&__item {
 		flex: 0 0 25%;
