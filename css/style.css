@@ -110,6 +110,7 @@ h6 {
   font-size: 20px;
   color: #333;
 }
+
 /*----- КОНТЕЙНЕР ---------------------------------------*/
 .container {
   max-width: 1200px;
@@ -137,6 +138,7 @@ h6 {
           animation-direction: alternate;
   -webkit-animation-delay: 0.5s;
           animation-delay: 0.5s;
+  cursor: pointer;
 }
 .cirlce__animation:hover {
   -webkit-animation-play-state: paused;
@@ -296,6 +298,7 @@ h6 {
   text-transform: uppercase;
   color: white;
   text-transform: none;
+  cursor: pointer;
 }
 
 .header.fixed {
@@ -591,6 +594,7 @@ h6 {
 }
 
 .slider__item {
+  cursor: pointer;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 22%;
           flex: 0 1 22%;
