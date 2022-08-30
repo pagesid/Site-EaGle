@@ -2,6 +2,7 @@
 $(document).ready(function () {
 
 	const header = $('#header');
+	// const headerHeight = $('#header').innerHeight();
 	const introH = $('#intro').innerHeight();
 
 	let scrollOffset = $(window).scrollTop();
@@ -44,10 +45,14 @@ $(document).ready(function () {
 		$(this).toggleClass('active');
 		$('#nav').toggleClass('active');
 
+		// header.addClass('fixed');
 	})
 
-	// Аккордеон - открытие
 
+
+
+
+	// Аккордеон - открытие
 	$('[data-collapse]').on('click', function (event) {
 		event.preventDefault();
 
