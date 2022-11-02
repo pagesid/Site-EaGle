@@ -315,7 +315,7 @@ h6 {
 }
 
 .header.active {
-  background-color: #be6363;
+  background-color: #e98684;
 }
 
 @media (max-width: 860px) {
@@ -1166,7 +1166,11 @@ h6 {
   }
 
   .reviews .slick-slider {
-    padding: 0 60px;
+    padding: 0 80px;
+  }
+
+  .reviews__author {
+    font-size: 19px;
   }
 }
 @media (max-width: 770px) {
@@ -1193,11 +1197,19 @@ h6 {
   }
 
   .reviews .slick-slider {
-    padding: 0;
+    padding: 0px;
+  }
+
+  .reviews__photo {
+    width: 190px;
   }
 
   .slick-arrow {
     top: 18%;
+  }
+
+  .reviews__author {
+    font-size: 18px;
   }
 }
 /*----- 8 Блок ---------------------------------------*/
@@ -1274,7 +1286,6 @@ h6 {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 10px 0px 10px 35px;
 }
 @media (max-width: 900px) {
   .logo {
@@ -1314,6 +1325,7 @@ h6 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: -90px;
 }
 .works__column {
   -webkit-box-flex: 0;
@@ -1387,6 +1399,11 @@ h6 {
   color: #ffffff;
 }
 
+@media (max-width: 400px) {
+  .works {
+    margin-bottom: -30px;
+  }
+}
 /*----- 12 Блок ---------------------------------------*/
 .clients {
   display: -webkit-box;
