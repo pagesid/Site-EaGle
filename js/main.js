@@ -45,7 +45,15 @@ $(document).ready(function () {
 		$(this).toggleClass('active');
 		$('#nav').toggleClass('active');
 		$('header').toggleClass('active');
+	})
 
+	// Прятаем Nav при клике на ссылки
+	$('.nav.active ,.nav__link').on('click', function (event) {
+		event.preventDefault();
+
+		$('#nav').removeClass('active');
+		$('header').removeClass('active');
+		$('#nav_toggle').toggleClass('active');
 	})
 
 
